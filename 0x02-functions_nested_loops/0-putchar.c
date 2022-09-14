@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -5,8 +6,9 @@
  * 
  * return: 
  */
-int main(void)
+int main()
 {
 	printf("_putchar\n");
-return(0);
+	
+	return 0;
 }
