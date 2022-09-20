@@ -11,7 +11,8 @@
 * main - print the string in the put function
 *
 * Description: using the main function
-* this program prints "A random number and check whether it is positive, negative, or zero"
+* this program prints
+* "A random number and check whether it is positive, negative, or zero"
 * Return: 0
 */
 
