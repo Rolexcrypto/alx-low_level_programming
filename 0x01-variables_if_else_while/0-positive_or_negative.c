@@ -8,12 +8,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print the string in the put function
- * 
- * Description: using the main function
- * this program prints "a random number and check whether it is positive, negative, or zero"
- * Return: 0
- * /
+* main - print the string in the put function
+* 
+* Description: using the main function
+* this program prints "a random number and check whether it is positive, negative, or zero"
+* Return: 0
+*/
+
 int main(void)
 {
 		int n;
