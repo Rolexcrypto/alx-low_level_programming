@@ -7,11 +7,13 @@
 *
 * Description: uing the main function
 * this program prints "The alphabet in lowercase"
+* Return: 0
 */
 
 int main(void)
 {
 	char zh = 'a';
+
 	while (zh <= 'z')
 	{
 		putchar(zh);
