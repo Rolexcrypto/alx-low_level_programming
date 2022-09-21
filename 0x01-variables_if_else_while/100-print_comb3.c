@@ -33,6 +33,6 @@ int main(void)
             ++n2;
         }
         ++n1;
-
-        return(0);
     }
+    return(0);
+}
