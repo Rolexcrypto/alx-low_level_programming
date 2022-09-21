@@ -16,7 +16,7 @@ int main(void)
 
 	while (n <= 102)
 	{
-		putchar(n);
+		putchar(n + '48');
 		if (n == 57)
 			++n;
 	}
