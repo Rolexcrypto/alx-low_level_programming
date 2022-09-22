@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -12,9 +12,9 @@ nclude <stdio.h>
 
 int main(void)
 {
-	int n =0;
+	int n = 0;
 
-	while(n <= 9)
+	while (n <= 9)
 	{
 		putchar(n + 48);
 		if (n != 9)
@@ -26,5 +26,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }

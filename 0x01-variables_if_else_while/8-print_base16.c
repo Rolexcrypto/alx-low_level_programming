@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - print the string in the put function
  *
@@ -16,8 +15,9 @@ int main(void)
 
 	while (n <= 102)
 	{
-		putchar(n + '48');
+		putchar(n);
 		if (n == 57)
+			n += 39;
 			++n;
 	}
 	putchar('\n');
