@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * _strcat - concatenates the string pointed to by @src to
@@ -9,6 +10,7 @@
 *
 * Return: returns pointer to @dest
 */
+
 char *_strcat(char *dest, char *src);
 {
 	int index = 0, dest_len = 0;
