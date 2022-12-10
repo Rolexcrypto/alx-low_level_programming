@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdlib.h>
 #include<stdio.h>
 /**
@@ -10,6 +9,10 @@
 */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char mystr[] = "Programming is like building a multilingual puzzle"
+	
+	
+	puts(mystr);
+	
 	return (0);
 }
