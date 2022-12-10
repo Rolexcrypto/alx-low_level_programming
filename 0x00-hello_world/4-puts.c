@@ -1,5 +1,5 @@
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 /**
 * main - print the string in the put function
 *
@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-	char mystr[] = "Programming is like building a multilingual puzzle"
+	char mystr[] = "Programming is like building a multilingual puzzle";
 	
 	
 	puts(mystr);
