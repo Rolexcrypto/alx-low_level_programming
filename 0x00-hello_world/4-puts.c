@@ -1,3 +1,4 @@
+#!/bin/bash
 <<<<<<< HEAD
 =======
 #include <stdio.h>
