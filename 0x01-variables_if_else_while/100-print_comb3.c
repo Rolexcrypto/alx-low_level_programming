@@ -11,18 +11,24 @@
 
 int main(void)
 {
-	int n = 01;
-	int d = 12;
+	int ones = '0';
+	int tens = '0';
 
-	while (n <= 09)
+	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit */
 	{
-		putchar(n + '01');
-		++n;
-	}
-	while (d <= 89)
-	{
-		putchar(d + '12');
-		++n;
+		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit */
+		{
+			if (!((ones == tens) || (tens > ones)))/* elinimates repitition */
+			{
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))/* adds comma and space */
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 	putchar('\n');
 return (0);
