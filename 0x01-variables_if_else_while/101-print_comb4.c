@@ -17,16 +17,16 @@ int main(void)
 	int tens = '0';
 	int hundred = '0';
 
-	for (hundreds = '0'; hundreds <= '9'; hundreds++)
+	for (hundred = '0'; hundred <= '9'; hundred++)
 	{
 		for (tens = '0'; tens <= '9'; tens++)
 		{
 			for (ones = '0'; ones <= '9'; ones++)
 			{
-				if (!((ones == tens) || (tens == hundreds) ||
-							(tens > ones) || (hundreds > tens)))
+				if (!((ones == tens) || (tens == hundred) ||
+							(tens > ones) || (hundred > tens)))
 				{
-					putchar(hundreds);
+					putchar(hundred);
 					putchar(tens);
 					putchar(ones);
 					if (!(ones == '9' && tens == '8' && hundreds == '7'))
