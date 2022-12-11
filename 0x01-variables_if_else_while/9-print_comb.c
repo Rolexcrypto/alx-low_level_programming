@@ -12,19 +12,25 @@
 
 int main(void)
 {
-	int n = 0;
+	int ones = '0'
+	int tens = '0'
 
-	while (n <= 9)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		putchar(n + 48);
-		if (n != 9)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			putchar(',');
-			putchar(' ');
-		}
-		++n;
+			if (!((ones == tens) || (tens > ones)))
+			{
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens =='8'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}	
 	}
 	putchar('\n');
-
 	return (0);
 }
