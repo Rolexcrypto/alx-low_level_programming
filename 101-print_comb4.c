@@ -22,7 +22,7 @@ int main(void)
 		{
 			for (ones = '0'; ones <= '9'; ones++)/* print the ones */
 			{
-				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundredds > tens)/* eliminates repitition */
+				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)/* eliminates repitition */
 				{
 					putchar(hundreds);
 					putchar(tens);
