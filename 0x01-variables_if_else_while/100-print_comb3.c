@@ -1,38 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
-* main - print the string in the put function
+* main - print the string in the put fuction
 *
-* Description: uing the main function
-* this program prints "The alphabet in lowercase"
+* description: using the main function
+*this program prints "a program that prints all possible different combinations of two digits."
 * Return: 0
 */
 
 int main(void)
 {
-int n1 = 0, n2;
-while (n1 <= 9)
-{
-n2 = 0;
-while (n2 <= 9)
-{
-if (n1 != n2 && n1 < n2)
-{
-putchar(n1 + 48);
-putchar(n2 + 48);
+	int n = 01;
+	int d = 12;
 
-if (n1 + n2 != 17)
-{
-putchar(',');
-putchar(' ');
-}
-}
-++n2;
-}
-++n1;
-}
-putchar ('\n');
+	while (n <= 09)
+	{
+		putchar(n + '01');
+		++n;
+	}
+	while (d <= 89)
+	{
+		putchar(d + '12');
+		++n;
+	}
+	putchar('\n');
 return (0);
 }
