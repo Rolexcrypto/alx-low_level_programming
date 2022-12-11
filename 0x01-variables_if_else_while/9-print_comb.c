@@ -12,18 +12,18 @@
 
 int main(void)
 {
-	int n = '0'
-	int d = '0'
+	int ones = '0'
+	int tens = '0'
 
-	for (d = '0'; d <= '9'; d++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		for (n = '0'; n <= '9'; n++)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			if (!((n == d) || (d > n)))
+			if (!((ones == tens) || (tens > ones)))
 			{
-				putchar(d);
-				putchar(n);
-				if (!(n == '9' && d =='8'))
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens =='8'))
 				{
 					putchar(',');
 					putchar(' ');
