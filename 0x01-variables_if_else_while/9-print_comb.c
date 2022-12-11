@@ -12,19 +12,25 @@
 
 int main(void)
 {
-	int n = 0;
+	int n = '0'
+	int d = '0'
 
-	while (n <= 9)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(n + 48);
-		if (n != 9)
+		for (n = '0'; n <= '9'; n++)
 		{
-			putchar(',');
-			putchar(' ');
-		}
-		++n;
+			if (!((n == d) || (d > n)))
+			{
+				putchar(d);
+				putchar(n);
+				if (!(n == '9' && d =='8'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}	
 	}
 	putchar('\n');
-
 	return (0);
 }
