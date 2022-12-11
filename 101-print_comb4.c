@@ -12,9 +12,9 @@
 
 int main(void)
 {
-	int hundreds = '0';
+	int ones = '0';
 	int tens = '0';
-	int ones ='0';
+	int hundreds = '0'
 	
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)/* print the hundreds */
 	{
