@@ -5,7 +5,7 @@
 * main - print the string in the put fuction
 *
 * description: using the main function
-* this program prints "a program that prints all possible different combinations of two digits."
+* this program prints "a program that prints all possible different combinations of two digits"
 * Return: 0
 */
 
