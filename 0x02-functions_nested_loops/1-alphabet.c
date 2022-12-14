@@ -4,7 +4,7 @@
 #include <time.h>
 
 /**
-* print_alphabet - print alaphabet
+* print_alphabet - print alphabet
 *
 * Description: using the main function
 * this program print "a function that prints the alphabet, in lowercase, followed by a new line"
@@ -14,7 +14,7 @@
 void print_alphabet(void)
 {
 
-	int n;
+	char n;
 	
 	for (n = 'a'; n <= 'z'; n++)
 	{
