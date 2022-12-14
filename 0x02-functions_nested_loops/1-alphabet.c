@@ -14,11 +14,11 @@
 void print_alphabet(void)
 {
 
-	char ln;
+	char n;
 
-	for (ln = 'a'; ln <= 'z'; ln++)
+	for (n = 'a'; n <= 'z'; n++)
 
-		_putchar('ln');
+		_putchar('n');
 
 	_putchar('\n');
 	return (0);f
