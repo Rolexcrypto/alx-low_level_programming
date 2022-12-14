@@ -6,12 +6,12 @@
  *
  * Description: using the main function
  * this program print "a program that prints _putchar, followed by a new line"
- * return: 0
+ * return: return to 0
  */
 
 int main(void)
 {
-	putchar('.');
+	putchar('_');
 	putchar('p');
 	putchar('u');
 	putchar('t');
