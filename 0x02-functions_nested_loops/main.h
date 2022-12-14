@@ -2,8 +2,8 @@
 #define _MAIN_H_
 
 
-void print_alphabet(void);
 print_alphabet_x10(void);
+void print_alphabet(void);
 int islower(int c);
 int _putchar(char c);
 int _isalpha(int c);
@@ -15,4 +15,4 @@ void print_to_98(int n);
 void print_times_table(int n);
 int _putchar(char c);
 
-#endif
+#endif /*MAIN_H*/
