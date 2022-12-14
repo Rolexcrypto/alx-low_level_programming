@@ -6,7 +6,7 @@
  *
  * Description: using the main function
  * this program print "a program that prints _putchar, followed by a new line"
- * return: return to 0
+ * Return: 0
  */
 
 int main(void)
