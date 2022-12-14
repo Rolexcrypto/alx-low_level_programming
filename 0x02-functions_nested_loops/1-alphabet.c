@@ -11,14 +11,14 @@
 * Return: 0
 */
 
-int main(void)
+void print_alphabet(void)
 {
 
-	char n;
+	char ln;
 
-	for (n = 'a'; n <= 'z'; n++)
+	for (ln = 'a'; ln <= 'z'; ln++)
 
-		_putchar('n');
+		_putchar('ln');
 
 	_putchar('\n');
 	return (0);
