@@ -7,7 +7,8 @@
 * print_alphabet - print alphabet from the put function
 *
 * Description: using the print_alphabet function
-* this program print "a function that prints the alphabet, in lowercase, followed by a new line"
+* this program print 
+* "a function that prints the alphabet in lowercase, followed by a new line"
 * Return: 0
 */
 
