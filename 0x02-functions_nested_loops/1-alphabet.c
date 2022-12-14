@@ -15,11 +15,11 @@
 void print_alphabet(void)
 {
 
-	char lowercase;
+	char c;
 
-	for (lowercase = 'a'; lowercase <= 'z'; n++)
+	for (c = 'a'; c <= 'z'; n++)
 
-		_putchar('lowercase');
+		_putchar('c');
 
 	_putchar('\n');
 }
