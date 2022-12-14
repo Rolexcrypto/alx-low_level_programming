@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - starting point
+ * main - print the string in the put function
  *
  * Description: using the main function
  * this program print "a program that prints _putchar, followed by a new line"
