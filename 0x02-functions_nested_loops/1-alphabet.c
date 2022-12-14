@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -17,8 +18,8 @@ void print_alphabet(void)
 	
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar('n');
+		_putchar('n');
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
