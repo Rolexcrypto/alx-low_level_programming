@@ -4,21 +4,20 @@
 #include <time.h>
 
 /**
-* print_alphabet - print alphabet from the put function
+* print_alphabet - print all alphabet in lowercase
 *
 * Description: using the print_alphabet function
 * this program print
 * "a function that prints the alphabet in lowercase, followed by a new line"
-* Return: 0
 */
 
 void print_alphabet(void)
 {
 
-	char le;
+	char letter;
 
-	for (le = 'a'; l <= 'z'; le++)
-				_putchar('le');
+	for (letter = 'a'; letter <= 'z'; letter++)
+				_putchar('letter');
 
 	_putchar('\n');
 }
