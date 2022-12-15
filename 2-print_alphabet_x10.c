@@ -2,6 +2,8 @@
 
 /**
 * print_alphabet - print all the alphabet in lowercase x10
+*
+* Description: using print_alphabet
 */
 
 void print_alphabet_x10(void)
