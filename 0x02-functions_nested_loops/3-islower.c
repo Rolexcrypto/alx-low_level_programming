@@ -10,6 +10,6 @@
 
 int _islower(int c)
 {
-	return (c=> 'a' && c <= 'z');
+	return (c => 'a' && c <= 'z');
 }
 
