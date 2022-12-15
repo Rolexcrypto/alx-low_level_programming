@@ -11,6 +11,7 @@ void print_alphabet_x10(void)
 {
 	int tens;
 	char letter;
+
 	for (tens = '0'; tens <= '9'; tens++)
 
 	{
